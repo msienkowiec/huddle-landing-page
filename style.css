@@ -109,6 +109,8 @@ footer a:hover {
 
 @media screen and (min-width: 768px) {
     body {
+        background-image: url(./images/bg-desktop.svg);
+        background-size: auto 100%;
         justify-content: space-between;
         
         padding: 3% 0;
@@ -127,7 +129,7 @@ footer a:hover {
     main {
         flex-direction: row;
         justify-content: space-between;
-        padding-top: 4%;
+        padding-top: 5%;
     }
 
     main > img {
@@ -139,8 +141,7 @@ footer a:hover {
     main section {
         justify-content: flex-start;
         align-items: flex-start;
-        margin-top: 3rem;
-        width: 50vw;
+        margin-top: 4%;
     }
 
     section h1 {
@@ -173,11 +174,4 @@ footer a:hover {
         width: 2.5rem;
         font-size: 1rem;
     }
-}
-
-@media screen and (min-width: 1440px) {
-    body {
-        background-image: url(./images/bg-desktop.svg);
-        background-size: contain;
-    }    
 }
