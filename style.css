@@ -126,11 +126,12 @@ footer a:hover {
     /* Main */
     main {
         flex-direction: row;
+        justify-content: space-between;
         padding-top: 4%;
     }
 
     main > img {
-        max-width: 40vw;
+        max-width: 50vw;
         height: 100%;
         align-self: center;
     }
@@ -139,7 +140,7 @@ footer a:hover {
         justify-content: flex-start;
         align-items: flex-start;
         margin-top: 3rem;
-        width: 40vw;
+        width: 50vw;
     }
 
     section h1 {
@@ -178,9 +179,5 @@ footer a:hover {
     body {
         background-image: url(./images/bg-desktop.svg);
         background-size: contain;
-    }
-
-    main > img {
-        max-width: 60vw;
-    }
+    }    
 }
