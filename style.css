@@ -139,7 +139,6 @@ footer a:hover {
     }
     
     main section {
-        justify-content: flex-start;
         align-items: flex-start;
         margin-top: 4%;
     }
